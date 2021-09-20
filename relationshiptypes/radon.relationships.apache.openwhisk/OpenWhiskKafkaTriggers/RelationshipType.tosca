@@ -8,11 +8,3 @@ relationship_types:
       targetNamespace: "radon.relationships.apache.openwhisk"
       abstract: "false"
       final: "false"
-    properties:
-      trigger_name:
-        type: string
-        description: the name of the trigger created by this relationship. Used for proper cleanup when the relationship is removed.
-      events:
-        type: string
-        constraints:
-          - length: 1
