@@ -2,6 +2,7 @@
 
 > TOSCA definitions repository for the [RADON project](http://radon-h2020.eu)
 
+[![DEFUSE](https://github.com/stefanodallapalma/radon-particles/actions/workflows/defuse.yml/badge.svg)](https://github.com/stefanodallapalma/radon-particles/actions/workflows/defuse.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![RADON on Twitter](https://img.shields.io/twitter/url/https/twitter.com/RADON_2020?label=RADON%20on%20Twitter&style=social)](https://twitter.com/RADON_2020)
 
