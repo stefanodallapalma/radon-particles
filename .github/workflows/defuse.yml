@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  defect_prediction_job:
+    runs-on: ubuntu-latest
+    name: Run DEFUSE's model CONFIGURATION DATA for Tosca
+    steps:
+      - name: Defect Prediction
+        id: defect_prediction
+        uses: radon-h2020/radon-defuse-action@v1.1
+        with:
+          model: 'ZyZTqExG8fghoKvyQPIi'
+          language: 'tosca'
+          url: 'https://radon.defuse.api.eu.ngrok.io'
